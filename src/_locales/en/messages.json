@@ -1,0 +1,44 @@
+{
+  "description": {
+    "message": "A Chrome extension that periodically reloads foreground tabs."
+  },
+  "title": {
+    "message": "Periodic Reload Settings"
+  },
+  "feature_description": {
+    "message": "Automatically reloads the active tab in the currently focused window at specified intervals."
+  },
+  "current_status_label": {
+    "message": "Current status:"
+  },
+  "status_running": {
+    "message": "Running"
+  },
+  "status_stopped": {
+    "message": "Stopped"
+  },
+  "interval_setting_label": {
+    "message": "Reload interval (seconds)"
+  },
+  "interval_help": {
+    "message": "Set between 10 and 300 seconds (5 minutes)"
+  },
+  "start_button": {
+    "message": "Start"
+  },
+  "stop_button": {
+    "message": "Stop"
+  },
+  "reload_started": {
+    "message": "Periodic reload started"
+  },
+  "reload_stopped": {
+    "message": "Periodic reload stopped"
+  },
+  "error_load_settings": {
+    "message": "Failed to load settings"
+  },
+  "error_save_settings": {
+    "message": "Failed to save settings"
+  }
+}

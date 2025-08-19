@@ -1,0 +1,44 @@
+{
+  "description": {
+    "message": "フォアグラウンドのタブを定期的にリロードするChrome拡張機能です。"
+  },
+  "title": {
+    "message": "Periodic Reload 設定"
+  },
+  "feature_description": {
+    "message": "指定した間隔で現在フォーカスされているウィンドウのアクティブタブを自動的にリロードします。"
+  },
+  "current_status_label": {
+    "message": "現在の状態:"
+  },
+  "status_running": {
+    "message": "実行中"
+  },
+  "status_stopped": {
+    "message": "停止中"
+  },
+  "interval_setting_label": {
+    "message": "リロード間隔（秒）"
+  },
+  "interval_help": {
+    "message": "10秒から300秒（5分）まで設定可能"
+  },
+  "start_button": {
+    "message": "開始"
+  },
+  "stop_button": {
+    "message": "停止"
+  },
+  "reload_started": {
+    "message": "定期リロードを開始しました"
+  },
+  "reload_stopped": {
+    "message": "定期リロードを停止しました"
+  },
+  "error_load_settings": {
+    "message": "設定の読み込みに失敗しました"
+  },
+  "error_save_settings": {
+    "message": "設定の保存に失敗しました"
+  }
+}

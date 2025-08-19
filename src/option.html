@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title data-i18n-text="title"></title>
+    <link rel="stylesheet" type="text/css" href="css/option.css" />
+  </head>
+  <body>
+    <p class="main-title-p" data-i18n-text="title"></p>
+    <div class="settings-div">
+      <div class="setting-group">
+        <p class="description-text" data-i18n-text="feature_description"></p>
+      </div>
+      <div class="setting-group">
+        <label for="intervalInput" class="setting-label" data-i18n-text="interval_setting_label"></label>
+        <input type="number" id="intervalInput" min="10" max="300" value="30" class="number-input" />
+        <small class="help-text" data-i18n-text="interval_help"></small>
+      </div>
+      <div class="button-group">
+        <div class="status-display">
+          <span data-i18n-text="current_status_label"></span>
+          <span id="currentStatus" class="status-value" data-i18n-text="status_stopped"></span>
+        </div>
+        <button type="button" id="toggleButton" class="primary-button" data-i18n-text="start_button"></button>
+      </div>
+    </div>
+    <div id="errorMessage" class="error-message" style="display: none"></div>
+    <script src="js/option.js"></script>
+  </body>
+</html>
